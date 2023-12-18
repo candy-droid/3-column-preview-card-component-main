@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <link href="/dist/output.css" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+  </style>
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="grid justify-center items-center h-[100vh]">
+  <div class="relative">
+    <div class="container mx-auto p-4">
+      <div class="grid lg:grid-cols-3 rounded-md overflow-hidden">
+        <div class="group bg-bright-orange p-16 grid max-md:gap-8 md:gap-32">
+          <div class="grid gap-8">
+            <div>
+              <img src="images/icon-sedans.svg">
+            </div>
+            <h2 class="text-4xl uppercase text-light-gray title tracking-wide">
+              Sedans
+            </h2>
+            <p class="text-light-gray max-w-[18rem]">
+              Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+              or on your next road trip.
+            </p>
+          </div>
+          <div class="">
+            <button
+              class="bg-light-gray text-bright-orange font-light border-2 rounded-full px-8 py-3 transition delay-150 duration-200 group-hover:bg-transparent group-hover:text-light-gray  group-hover:border-light-gray">Learn
+              More</button>
+          </div>
+        </div>
+        <div class="group bg-cyan p-16 grid max-md:gap-8 md:gap-32">
+          <div class="grid gap-8">
+            <div>
+              <img src="images/icon-suvs.svg">
+            </div>
+            <h2 class="text-4xl uppercase text-light-gray title tracking-wide">
+              SUVs
+            </h2>
+            <p class="text-light-gray max-w-[18rem]">
+              Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+              and off-road adventures.
+            </p>
+          </div>
+          <div class="">
+            <button
+              class="bg-light-gray text-cyan font-light border-2 rounded-full px-8 py-3 transition delay-150 duration-200 group-hover:bg-transparent group-hover:text-light-gray  group-hover:border-light-gray">Learn
+              More</button>
+          </div>
+        </div>
+        <div class="group bg-dark-cyan p-16 grid max-md:gap-8 md:gap-32">
+          <div class="grid gap-8">
+            <div>
+              <img src="images/icon-luxury.svg">
+            </div>
+            <h2 class="text-4xl uppercase text-light-gray title tracking-wide">
+              Luxury
+            </h2>
+            <p class="text-light-gray max-w-[18rem]">
+              Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+              rental and arrive in style.
+            </p>
+          </div>
+          <div class="">
+            <button
+              class="bg-light-gray text-dark-cyan font-light border-2 rounded-full px-8 py-3 transition delay-150 duration-200 group-hover:bg-transparent group-hover:text-light-gray  group-hover:border-light-gray">Learn
+              More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Greeshma G</a>.
+  </div>
+
+</body>
+
+</html>
